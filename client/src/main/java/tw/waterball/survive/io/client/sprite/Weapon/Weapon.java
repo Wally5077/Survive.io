@@ -1,4 +1,4 @@
-package tw.waterball.survive.io.client.sprite.Weapon;
+package tw.waterball.survive.io.client.sprite.weapon;
 
 
 import tw.waterball.survive.io.client.sprite.Sprite;
@@ -13,8 +13,6 @@ public abstract class Weapon extends Sprite {
 
     }
 
-    public void setIsInBody(boolean isInBody) {
-
-    }
+    public abstract void attack();
 
 }
